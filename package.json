@@ -1,0 +1,36 @@
+{
+  "name": "kintone-typescript-sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yokotaso/kintone-typescript-sample.git"
+  },
+  "keywords": [
+    "kintone",
+    "TypeScript"
+  ],
+  "author": "Tomoya Yokota",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yokotaso/kintone-typescript-sample/issues"
+  },
+  "homepage": "https://github.com/yokotaso/kintone-typescript-sample#readme",
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/plugin-proposal-class-properties": "^7.3.0",
+    "@babel/plugin-proposal-object-rest-spread": "^7.3.2",
+    "@babel/preset-env": "^7.3.1",
+    "@babel/preset-typescript": "^7.1.0",
+    "@kintone/dts-gen": "0.0.6",
+    "babel-loader": "^8.0.5",
+    "fork-ts-checker-webpack-plugin": "^0.5.2",
+    "typescript": "^3.3.3",
+    "webpack": "^4.29.3",
+    "webpack-cli": "^3.2.3"
+  }
+}
